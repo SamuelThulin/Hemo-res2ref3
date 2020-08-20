@@ -320,7 +320,7 @@ function draw() {
   let freqPoints = fft.getValue();
 
   for (let i = 0; i < points.length; i++) {
-    ellipse(points[i].x + freqPoints[i], points[i].y + freqPoints[i], 3, 3);
+    ellipse(points[i].x + freqPoints[i], points[i].y + freqPoints[i], 10, 10);
     //ellipse(points[i].x, points[i].y, 3, 3);
     //console.log(points[i].x);
     //textSize(24);
