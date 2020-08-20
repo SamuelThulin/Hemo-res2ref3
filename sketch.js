@@ -301,7 +301,7 @@ if(8.0>bgDict.get(selBg)[0] && bgDict.get(selBg)[0]>=4.0){
 
 //////////draw the number/////////////
 
-  points = hussar.textToPoints(String(bgDict.get(selBg)[0]), width / 5, height / 1.2, fontSize, {
+  points = hussar.textToPoints(String(bgDict.get(selBg)[0].toFixed(1)), width / 5, height / 1.2, fontSize, {
     sampleFactor: 0.4 //seems like this isn't working properly
   })
   console.log("points" + points.length);
